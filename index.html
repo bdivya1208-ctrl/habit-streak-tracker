@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Habit Streak Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- =========================
+            HEADER
+    ========================== -->
+
+    <header>
+
+        <h1>
+            🔥 Habit Streak Tracker
+        </h1>
+
+        <p>
+            Build better habits one day at a time.
+        </p>
+
+    </header>
+
+
+
+    <!-- =========================
+            DASHBOARD
+    ========================== -->
+
+    <section class="dashboard">
+
+        <div class="card">
+
+            <i class="fa-solid fa-list-check"></i>
+
+            <h2 id="totalHabits">
+                0
+            </h2>
+
+            <span>Total Habits</span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-fire"></i>
+
+            <h2 id="currentStreak">
+                0
+            </h2>
+
+            <span>Current Streak</span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-trophy"></i>
+
+            <h2 id="longestStreak">
+                0
+            </h2>
+
+            <span>Longest Streak</span>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-chart-line"></i>
+
+            <h2 id="completion">
+                0%
+            </h2>
+
+            <span>Completion</span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+            QUOTE
+    ========================== -->
+
+    <section class="quote-box">
+
+        <i class="fa-solid fa-lightbulb"></i>
+
+        <p id="quote">
+
+            Small progress every day leads to big results.
+
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+            ADD HABIT
+    ========================== -->
+
+    <section class="add-habit">
+
+        <input
+            type="text"
+            id="habitInput"
+            placeholder="Enter a new habit...">
+
+        <button id="addHabit">
+
+            <i class="fa-solid fa-plus"></i>
+
+            Add Habit
+
+        </button>
+
+    </section>
+
+
+
+    <!-- =========================
+            HABITS
+    ========================== -->
+
+    <section id="habitContainer">
+
+        <!-- JavaScript will create cards -->
+
+    </section>
+
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
